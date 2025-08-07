@@ -1,0 +1,35 @@
+.bookCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 16px;
+}
+
+.bookCover {
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+}
+
+.bookInfo {
+    text-decoration: none;
+    text-align: start;
+    color: #333;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bookTitle {
+
+}
+
+.bookAuthor {
+
+}

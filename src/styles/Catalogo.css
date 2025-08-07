@@ -1,0 +1,19 @@
+.geral {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.headLine {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
