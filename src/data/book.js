@@ -4,7 +4,7 @@ export const livros = [
     titulo: "Dom Casmurro",
     autor: "Machado de Assis",
     genero: "Romance",
-    capa: "https://covers.openlibrary.org/b/id/10541739-L.jpg",
+    capa: "https://m.media-amazon.com/images/I/61Z2bMhGicL.jpg",
     descricao: "Um dos romances mais famosos da literatura brasileira..."
   },
   {
@@ -12,7 +12,7 @@ export const livros = [
     titulo: "Memórias Póstumas de Brás Cubas",
     autor: "Machado de Assis",
     genero: "Romance Filosófico",
-    capa: "https://covers.openlibrary.org/b/id/10541963-L.jpg",
+    capa: "https://m.media-amazon.com/images/I/71OL9RU2tJL.jpg",
     descricao: "Uma narrativa inovadora contada por um defunto-autor..."
   },
   {
@@ -20,7 +20,8 @@ export const livros = [
     titulo: "Grande Sertão: Veredas",
     autor: "João Guimarães Rosa",
     genero: "Romance",
-    capa: "https://covers.openlibrary.org/b/id/10541990-L.jpg",
+    capa: "https://m.media-amazon.com/images/I/91TxMwdCA8L._UF1000,1000_QL80_.jpg",
     descricao: "Uma obra-prima que explora o sertão e a alma humana..."
   }
+  
 ];
