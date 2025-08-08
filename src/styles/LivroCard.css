@@ -1,7 +1,7 @@
 .bookCard {
     display: flex;
     width: 250px;
-    min-width: 450px;
+    min-width: 125px;
     padding: 2px;
     background-color: transparent;
     backdrop-filter: blur(5px);
@@ -24,58 +24,30 @@
 
 .bookCover {
     border-radius: 8px;
-    margin-bottom: 12px;
     width: 75%;
-    margin: 10px 25px;
-}
-
-.cardDetalhado {
-    display: flex;
-    max-height: 850px;
-    flex-direction: row;
-    gap: 20px;
-    background-color: #88343c;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    color: #160202;
-    margin: 20px;
-}
-
-.cardDetalhado img.Capa {
-    border-radius: 8px;
-    margin-bottom: 12px;
-    width: 35%;
-    margin: 10px 25px;
-}
-
-.detalhesTexto {
-    display: flex;
-    flex-direction: column;
-    justify-content: top;
-    width: 65%;
-}
-
-.detalhesTexto h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-.detalhesTexto p.text-lg {
-    font-size: 1.6rem;
-    margin-bottom: 8px;
+    aspect-ratio: 2 / 3;
+    margin: 10px 25px 12px 25px;
 }
 
 .bookInfo {
     text-decoration: none;
     color: #333;
-    width: 100%;
-    padding: 10px 0;
+    width: 250px;
+    height: 80px;
+    padding: 0 15px;
+    margin: 20px 0 8px 0;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
 }
 
 .bookTitle {
-    font-size: 1.5rem;
+    font-size: 20px;
     font-weight: bold;
     margin-bottom: 8px;
     color: #000;
@@ -93,6 +65,8 @@
     color: #555;
     margin-bottom: 8px;
     text-decoration: none;
+
+    font-size: 16px;
 }
 
 .bookAuthor:hover {

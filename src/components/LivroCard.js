@@ -8,7 +8,7 @@ export default function LivroCard({ livro }) {
       <img src={livro.capa} alt={livro.titulo} className="bookCover" />
 
       <div className="bookInfo">
-        <h2 className="bookTitle">{livro.titulo}</h2>
+        <p className="bookTitle">{livro.titulo}</p>
         <p className="bookAuthor">{livro.autor}</p>
       </div>
     </Link>
