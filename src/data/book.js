@@ -28,7 +28,7 @@ export const livros = [
     titulo: "O Guarani",
     autor: "José de Alencar",
     genero: "Romance Histórico",
-    capa: "https://m.media-amazon.com/images/I/81+SGd5KQqL.jpg",
+    capa: "https://m.media-amazon.com/images/I/91-16juFmnL._UF1000,1000_QL80_.jpg",
     descricao: "Publicado em 1857, 'O Guarani' é um romance indianista ambientado no Brasil colonial do século XVII. Conta a história de Peri, um índio corajoso e leal, que se envolve na vida da família de Dom Antônio de Mariz, especialmente na proteção de sua filha, Cecília. A narrativa mistura ação, aventura, amor e valores heroicos, exaltando a figura do índio como símbolo da pureza e da bravura nacional. É uma obra marcada pelo romantismo e pelo nacionalismo da época, sendo um dos textos fundadores da literatura brasileira."
   },
   {
@@ -36,7 +36,7 @@ export const livros = [
     titulo: "Iracema",
     autor: "José de Alencar",
     genero: "Romance Indianista",
-    capa: "https://m.media-amazon.com/images/I/81c8q+q4VnL.jpg",
+    capa: "https://m.media-amazon.com/images/I/71LCDi6E2oL._UF1000,1000_QL80_.jpg",
     descricao: "Publicado em 1865, 'Iracema' é considerado o mais lírico dos romances indianistas de José de Alencar. A trama narra o encontro e o amor entre a índia Iracema, guardiã do segredo da jurema, e Martim, um colonizador português. O relacionamento simboliza a fusão das culturas indígena e europeia, mas é marcado pela tragédia e pela perda. Com linguagem poética e simbólica, a obra constrói um mito de origem para o povo brasileiro, misturando elementos históricos, lendários e sentimentais."
   },
   {
@@ -44,7 +44,7 @@ export const livros = [
     titulo: "Vidas Secas",
     autor: "Graciliano Ramos",
     genero: "Romance",
-    capa: "https://m.media-amazon.com/images/I/81bXPAwv+BL.jpg",
+    capa: "https://m.media-amazon.com/images/I/71NYL2AbBIL._UF1000,1000_QL80_.jpg",
     descricao: "Lançado em 1938, 'Vidas Secas' retrata a luta de uma família sertaneja contra a seca e a miséria no interior do Nordeste brasileiro. A narrativa acompanha Fabiano, Sinhá Vitória, os dois filhos e a cadela Baleia, cada capítulo oferecendo o ponto de vista de um personagem. Com prosa econômica e direta, Graciliano Ramos constrói um retrato pungente da resistência humana frente à adversidade, abordando temas como fome, injustiça social e alienação."
   },
   {
@@ -52,7 +52,7 @@ export const livros = [
     titulo: "São Bernardo",
     autor: "Graciliano Ramos",
     genero: "Romance",
-    capa: "https://m.media-amazon.com/images/I/81K2uGqAEML.jpg",
+    capa: "https://m.media-amazon.com/images/I/81vFD4lJ6BL._SL1500_.jpg",
     descricao: "Publicado em 1934, este romance narra em primeira pessoa a história de Paulo Honório, um homem pobre que enriquece e se torna proprietário da fazenda São Bernardo. Ambicioso e pragmático, ele constrói sua fortuna à custa de trabalho duro e métodos questionáveis. Ao casar-se com Madalena, mulher instruída e idealista, surgem conflitos irreconciliáveis que levam a um final trágico. A obra é uma crítica à desigualdade, à exploração e ao autoritarismo no campo."
   },
   {
@@ -60,7 +60,7 @@ export const livros = [
     titulo: "O Cortiço",
     autor: "Aluísio Azevedo",
     genero: "Romance Naturalista",
-    capa: "https://m.media-amazon.com/images/I/81l2gwvA3UL.jpg",
+    capa: "https://m.media-amazon.com/images/I/81Y1hj9b0tL._UF1000,1000_QL80_.jpg",
     descricao: "Publicado em 1890, 'O Cortiço' é um retrato vívido da vida num aglomerado habitacional no Rio de Janeiro do século XIX. Com forte influência naturalista, a narrativa acompanha os moradores, suas paixões, conflitos e degradação, mostrando como o meio influencia o comportamento humano. Personagens como João Romão, Bertoleza e Rita Baiana dão vida a uma trama de ambição, exploração e sobrevivência, refletindo as tensões sociais da época."
   },
   {
@@ -68,7 +68,15 @@ export const livros = [
     titulo: "A Moreninha",
     autor: "Joaquim Manuel de Macedo",
     genero: "Romance",
-    capa: "https://m.media-amazon.com/images/I/81yJH9Qv6+L.jpg",
+    capa: "https://m.media-amazon.com/images/I/61Q6vZZzTML._UF1000,1000_QL80_.jpg",
     descricao: "Lançado em 1844, 'A Moreninha' é considerado o primeiro romance tipicamente brasileiro. A história acompanha Augusto, um jovem estudante que, durante uma viagem a uma ilha, conhece Carolina, a 'moreninha' do título. Entre brincadeiras, promessas e revelações, o romance explora temas como amor juvenil, fidelidade e destino, culminando num desfecho romântico e surpreendente."
+  },
+  {
+    id: "10",
+    titulo: "A Torre do Dinheiro",
+    autor: "Antonio Misson",
+    genero: "Misterio",
+    capa: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgXY6gIoCpr3bBjdP64Vcps3W_fl1bCA8JpA&s",
+    descricao: "Lançado em 2025, 'A Torre do Dinheiro' conta a aventura de um arquiologo que vai para o oriente medio após a descoberta de um torre da epoca dos sumérios, porém ele não é o único de olho na torre."
   }
 ];
