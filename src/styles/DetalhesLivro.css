@@ -67,3 +67,25 @@
     margin-bottom: 15px;
 }
 
+.listaInfos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+    height: 150px;
+    width: 100%;
+    background-color: #9c9c9c;
+
+    color: #0f0f0f;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bookInfos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;;
+    margin: 0 60px; 
+}
+

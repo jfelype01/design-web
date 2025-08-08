@@ -4,6 +4,11 @@ import { livros } from "../data/book";
 import "../styles/DetalhesLivro.css";
 import "../styles/Catalogo.css";
 
+import pagesIcon from '../imagens/pagesIcon.png';
+import bookIcon from '../imagens/book.png';
+import barCodeIcon from '../imagens/barCode.png';
+import editoraIcon from '../imagens/editora.png';
+
 export default function DetalhesLivro() {
   const { id } = useParams();
   const livro = livros.find(l => l.id === id);
@@ -19,6 +24,26 @@ export default function DetalhesLivro() {
           <p className="author">Autor: <span className="text-gray-300">{livro.autor}</span></p>
           <p className="gender">Gênero: <span className="text-gray-300">{livro.genero}</span></p>
           <p className="description">{livro.descricao}</p>
+        </div>
+      </div>
+      <div className="listaInfos">
+        <div className= "bookInfos">
+          <img src={pagesIcon} alt={livro.titulo} className="CapaDetalhe" />
+          <p className="info">Páginas: <span className="text-gray-300">{livro.paginas}</span></p>
+        </div>
+        <div className= "bookInfos">
+          <img src={bookIcon} alt={livro.titulo} className="CapaDetalhe" />
+          <p className="info">Acabamento: <span className="text-gray-300">{livro.acabamento}</span></p>
+        </div>
+
+        <div className= "bookInfos">
+          <img src={barCodeIcon} alt={livro.titulo} className="CapaDetalhe" />
+          <p className="info">ISBN: <span className="text-gray-300">{livro.isbn}</span></p>
+        </div>
+
+        <div className= "bookInfos">
+          <img src={editoraIcon} alt={livro.titulo} className="CapaDetalhe" />
+          <p className="info">Editora: <span className="text-gray-300">{livro.editora}</span></p>
         </div>
       </div>
       <Link to="/" className="textoVoltar">← Voltar</Link>
